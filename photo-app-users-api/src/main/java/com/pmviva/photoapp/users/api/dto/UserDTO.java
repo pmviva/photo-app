@@ -5,9 +5,9 @@ import java.io.Serializable;
 public class UserDTO implements Serializable {
 
   /**
-   * The id of the user.
+   * The user id of the user.
    */
-  private String id;
+  private String userId;
 
   /**
    * The first name of the user.
@@ -34,12 +34,12 @@ public class UserDTO implements Serializable {
    */
   private String encryptedPassword;
 
-  public String getId() {
-    return id;
+  public String getUserId() {
+    return userId;
   }
 
-  public void setId(String id) {
-    this.id = id;
+  public void setUserId(String userId) {
+    this.userId = userId;
   }
 
   public String getFirstName() {
